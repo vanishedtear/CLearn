@@ -10,6 +10,31 @@ namespace Chapter09
     {
         static void Main(string[] args)
         {
+
         }
     }
+    public class MyBaseClass()
+    {
+        public MyBaseClass()
+        {
+        }
+
+        public MyBaseClass(int i)
+        {
+        }
+    }
+
+    public class MyDerivedClass : MyBaseClass
+{
+    public MyDerivedClass()
+    { }
+
+    public MyDerivedClass(int i)
+    { }
+
+    public MyDerivedClass(int i,int j)
+    { }
+} 
+    
+    
 }
