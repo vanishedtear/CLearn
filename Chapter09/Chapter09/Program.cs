@@ -13,9 +13,23 @@ namespace Chapter09
 
         }
     }
-    public class MyBaseClass()
+    public abstract class test
     {
-        public MyBaseClass()
+        public int Property
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+    }
+    public class MyBaseClass
+    {
+        public  MyBaseClass()
         {
         }
 
@@ -25,16 +39,19 @@ namespace Chapter09
     }
 
     public class MyDerivedClass : MyBaseClass
-{
-    public MyDerivedClass()
-    { }
+    {
+        public MyDerivedClass()
+        { }
 
-    public MyDerivedClass(int i)
-    { }
+        public MyDerivedClass(int i)
+        { }
 
-    public MyDerivedClass(int i,int j)
-    { }
-} 
-    
-    
+        public  MyDerivedClass(int i, int j)
+        { }
+
+
+    }
+
+
+
 }
