@@ -8,6 +8,7 @@ namespace Ch10Ex01
 {
    class Program
    {
+        double
       static void Main(string[] args)
       {
          Console.WriteLine("Creating object myObj…...");
@@ -17,8 +18,7 @@ namespace Ch10Ex01
          {
             try
             {
-               Console.WriteLine("\nAttempting to assign {0} to myObj.Val…...",
-                                 i);
+               Console.WriteLine("\nAttempting to assign {0} to myObj.Val…...",i);
                myObj.Val = i;
                Console.WriteLine("Value {0} assigned to myObj.Val.", myObj.Val);
             }
