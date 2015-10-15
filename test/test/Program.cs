@@ -15,7 +15,7 @@ namespace test
             int? nullableInt = null;
             Console.WriteLine("{0}",nullableInt);
             int? nullableint=2;
-            result = nullableInt ?? nullableint;
+            result = nullableInt ?? nullableint; 
 
             
             Console.ReadKey();
